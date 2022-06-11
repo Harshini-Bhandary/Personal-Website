@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  padding: 10px;
+}
+
+hr{
+  background-color: #FCFEFE;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 650px;
+  top: 115px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 660px;
+  bottom: 300px;
+}
+
+.self-photo {
+  width: 200px;
+  height: 200px;
+  border: 0;
+  border-radius: 100%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border: 0;
+  border-radius: 100%;
+}
+
+.drawing{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border: 0;
+  border-radius: 100%;
+}
+
+.btn {
+  background: #11cdd4;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background:  #30e3cb;
+  text-decoration: none;
+}
+
+.bottom-container{
+  height: 100px;
+  background-color: #66BFBF;
+  margin-top: 30px;
+
+}
+
+.copy-right{
+  color: white;
+}
+
+.contact-me{
+  text-align: center;
+}
+/*
+CSS positioning Rules:-
+1. Content is Everything(height of a block element is determined by the size of the content. whereas of inline element height as well as width is defined by the content.)
+2. Order comes from Code(this means that which element or any content is written first in html will appear first for example if h1 tag is written before p tag then on the screen heading will be visible first then the paragraph.)
+3. Clidren sit on Parents(this means to make the content visible to the viewer the content is placed on its parent tag example we write heading inside the a div tag then it can be seen that heading is visible upon the the div tag. here div was the parent tag where as heading being the child element.)
+*/
+/*
+text align = centre would center every content which does not have specific width defined.
+other way to make the content place in the centre is by giving it margin at left and right i.e margin: 0 auto 0 auto;
+*/
+/* always use rem over em px and %  while defining size but it is also good to use px while defining margin, padding etc.*/
